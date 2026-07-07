@@ -2,7 +2,7 @@
 
 Visa Navigator is a user-friendly web portal designed to simplify the visa application process by providing clear information, management tools, and tracking functionality.  
 
-[Live Site URL](https://Ssiyam0123.github.io/Visa-Navigator/)  
+[Live Site URL](https://siyam-io.github.io/Visa-Navigator/)  
 
 ## Features  
 
