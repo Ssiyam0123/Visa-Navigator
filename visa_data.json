@@ -1,0 +1,97 @@
+[
+    {
+        "countryImage": "https://via.placeholder.com/150?text=Australia",
+        "countryName": "Australia",
+        "visaType": "Work and Holiday Visa",
+        "processingTime": "20 days",
+        "requiredDocuments": [
+            "Valid passport",
+            "Completed visa application form",
+            "Recent passport-sized photograph",
+            "Proof of financial means",
+            "Health insurance",
+            "Letter of government support (if applicable)"
+        ],
+        "description": "The Australia Work and Holiday Visa allows young travelers to work and explore the country for up to a year. Ensure you meet all eligibility criteria before applying.",
+        "ageRestriction": "18-30 years",
+        "fee": 450,
+        "validity": "1 year",
+        "applicationMethod": "Online"
+    },
+    {
+        "countryImage": "https://via.placeholder.com/150?text=Japan",
+        "countryName": "Japan",
+        "visaType": "Tourist Visa",
+        "processingTime": "5 days",
+        "requiredDocuments": [
+            "Valid passport",
+            "Visa application form",
+            "Recent passport-sized photograph",
+            "Proof of financial means",
+            "Flight itinerary",
+            "Accommodation details"
+        ],
+        "description": "Japan's Tourist Visa enables visitors to experience its rich culture and breathtaking landscapes. Ensure all documentation is accurate to enjoy a smooth application process.",
+        "ageRestriction": "None",
+        "fee": 80,
+        "validity": "90 days",
+        "applicationMethod": "Embassy"
+    },
+    {
+        "countryImage": "https://via.placeholder.com/150?text=Canada",
+        "countryName": "Canada",
+        "visaType": "Student Visa",
+        "processingTime": "15 days",
+        "requiredDocuments": [
+            "Valid passport",
+            "Acceptance letter from a Canadian institution",
+            "Proof of financial means",
+            "Visa application form",
+            "Recent passport-sized photograph",
+            "Medical examination (if applicable)"
+        ],
+        "description": "Canada's Student Visa allows international students to pursue their education in world-class institutions. Prepare all documents carefully to avoid processing delays.",
+        "ageRestriction": "None",
+        "fee": 150,
+        "validity": "Duration of study + 90 days",
+        "applicationMethod": "Online"
+    },
+    {
+        "countryImage": "https://via.placeholder.com/150?text=Germany",
+        "countryName": "Germany",
+        "visaType": "Schengen Visa",
+        "processingTime": "10 days",
+        "requiredDocuments": [
+            "Valid passport",
+            "Visa application form",
+            "Recent passport-sized photograph",
+            "Proof of travel insurance",
+            "Proof of accommodation",
+            "Proof of financial means"
+        ],
+        "description": "The Germany Schengen Visa grants access to Germany and other Schengen countries for short-term travel. Ensure your application is complete to enjoy your trip hassle-free.",
+        "ageRestriction": "None",
+        "fee": 85,
+        "validity": "90 days",
+        "applicationMethod": "Embassy"
+    },
+    {
+        "countryImage": "https://via.placeholder.com/150?text=New+Zealand",
+        "countryName": "New Zealand",
+        "visaType": "Skilled Migrant Visa",
+        "processingTime": "30 days",
+        "requiredDocuments": [
+            "Valid passport",
+            "Completed visa application form",
+            "Proof of qualifications",
+            "Proof of work experience",
+            "Health certificate",
+            "Police clearance certificate"
+        ],
+        "description": "The New Zealand Skilled Migrant Visa is ideal for professionals seeking permanent residency. Provide all necessary documents to support your application.",
+        "ageRestriction": "None",
+        "fee": 500,
+        "validity": "Indefinite",
+        "applicationMethod": "Online"
+    }
+]
