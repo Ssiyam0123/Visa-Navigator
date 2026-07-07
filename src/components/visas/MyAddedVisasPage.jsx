@@ -14,7 +14,7 @@ const MyAddedVisasPage = () => {
   // Fetch visas added by the user
   useEffect(() => {
     setLoading(true);
-    fetch(`https://assignment-10-server-swart-nine.vercel.app/results/${user.email}`)
+    fetch(`${import.meta.env.VITE_API_URL}/results/${user.email}`)
       .then((res) => res.json())
       .then((data) => {
         setVisas(Array.isArray(data) ? data : [data]); // Handle both array and single object response
@@ -38,7 +38,7 @@ const MyAddedVisasPage = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://assignment-10-server-swart-nine.vercel.app/visas/${visaId}`, {
+        fetch(`${import.meta.env.VITE_API_URL}/visas/${visaId}`, {
           method: "DELETE",
         })
           .then((res) => {
@@ -92,7 +92,7 @@ const MyAddedVisasPage = () => {
       denyButtonText: "Don't save",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://assignment-10-server-swart-nine.vercel.app/visas/${selectedVisa._id}`, {
+        fetch(`${import.meta.env.VITE_API_URL}/visas/${selectedVisa._id}`, {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",

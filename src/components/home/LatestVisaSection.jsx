@@ -10,7 +10,7 @@ const LatestVisaSection = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("https://assignment-10-server-swart-nine.vercel.app/visas")
+    fetch(`${import.meta.env.VITE_API_URL}/visas`)
       .then((res) => res.json())
       .then((data) => {
         setVisas(data);

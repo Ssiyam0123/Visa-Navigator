@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export default defineConfig({
+  base: "/Visa-Navigator/",
   plugins: [react()],
   optimizeDeps: {
     include: ['visa-animation.json'], // Optional, if necessary

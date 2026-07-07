@@ -48,7 +48,7 @@ const AddVisaPage = () => {
 
     setError("");
 
-    fetch("https://assignment-10-server-swart-nine.vercel.app/visas", {
+    fetch(`${import.meta.env.VITE_API_URL}/visas`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",

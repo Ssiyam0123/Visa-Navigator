@@ -12,7 +12,7 @@ const AllVisasPage = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("https://assignment-10-server-swart-nine.vercel.app/allVisas")
+    fetch(`${import.meta.env.VITE_API_URL}/allVisas`)
       .then((res) => res.json())
       .then((data) => {
         setVisas(data);

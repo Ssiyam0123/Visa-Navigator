@@ -17,7 +17,7 @@ const VisaDetails = () => {
   });
 
   useEffect(() => {
-    fetch(`https://assignment-10-server-swart-nine.vercel.app/visas/${id}`)
+    fetch(`${import.meta.env.VITE_API_URL}/visas/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setVisa(data);
@@ -41,7 +41,7 @@ const VisaDetails = () => {
       visa
     };
 
-    fetch(`https://assignment-10-server-swart-nine.vercel.app/applications`, {
+    fetch(`${import.meta.env.VITE_API_URL}/applications`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(applicationData),

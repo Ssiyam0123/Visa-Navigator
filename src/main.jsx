@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <HomePage />,
         loader: () =>
-          fetch("https://assignment-10-server-swart-nine.vercel.app/visas"),
+          fetch(`${import.meta.env.VITE_API_URL}/visas`),
       },
       {
         path: "/all-visas",
@@ -60,7 +60,7 @@ const router = createBrowserRouter([
         ),
         loader: () =>
           fetch(
-            "https://assignment-10-server-swart-nine.vercel.app/applications"
+            `${import.meta.env.VITE_API_URL}/applications`
           ),
       },
       {
@@ -83,13 +83,13 @@ const router = createBrowserRouter([
         path: "/allVisas",
         element: <AllVisasPage></AllVisasPage>,
       },
+      {
+        path: "*",
+        element: <ErrorPage></ErrorPage>,
+      },
     ],
   },
-  {
-    path: "*",
-    element: <ErrorPage></ErrorPage>,
-  },
-]);
+], { basename: import.meta.env.BASE_URL });
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

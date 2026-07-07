@@ -17,7 +17,7 @@ const MyVisaApplicationsPage = () => {
 
     setLoading(true);
     fetch(
-      `https://assignment-10-server-swart-nine.vercel.app/applications/${user.email}`
+      `${import.meta.env.VITE_API_URL}/applications/${user.email}`
     )
       .then((res) => res.json())
       .then((data) => {
@@ -60,7 +60,7 @@ const MyVisaApplicationsPage = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         fetch(
-          `https://assignment-10-server-swart-nine.vercel.app/applications/${id}`,
+          `${import.meta.env.VITE_API_URL}/applications/${id}`,
           {
             method: "DELETE",
           }
