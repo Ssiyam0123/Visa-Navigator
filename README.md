@@ -2,7 +2,7 @@
 
 Visa Navigator is a user-friendly web portal designed to simplify the visa application process by providing clear information, management tools, and tracking functionality.  
 
-[Live Site URL](https://siyam-io.github.io/Visa-Navigator/)  
+**Live Demo:** [https://siyam-visa-navigator.vercel.app/](https://siyam-visa-navigator.vercel.app/)  
 
 ## Features  
 
@@ -20,4 +20,5 @@ Visa Navigator is a user-friendly web portal designed to simplify the visa appli
 - **Backend**: Node.js, Express.js, MongoDB (for data storage).  
 - **Authentication**: Firebase (Email/Password and Google Login).  
 - **Hosting**: Client hosted on Netlify, server hosted on Vercel.  
+
 
